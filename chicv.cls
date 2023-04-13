@@ -16,7 +16,7 @@
 
 % For font setting
 \RequirePackage[T1]{fontenc}
-\RequirePackage{fontspec}
+% \RequirePackage{fontspec}
 \RequirePackage{titlesec}
 \RequirePackage{XCharter}
 % For color
