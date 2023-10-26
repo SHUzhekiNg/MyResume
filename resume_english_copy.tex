@@ -1,0 +1,86 @@
+% !TEX program = xelatex
+
+\documentclass{chicv}
+
+% optionally suppress printing the page number
+\pagenumbering{gobble}
+
+% optional Chinese support
+% \useChinese{Medium}{Heavy}
+% \useChinese{Regular}{Bold}
+
+\begin{document}
+
+%% basic personal info
+\name{Licheng Zheng}
+\begin{basicinfo}
+  \info{\email{zhenglicheng@shu.edu.cn}}
+  \info{\faPhone~{+86 189 1892 8753}}
+  \info{\github{SHUzheking}[https://github.com/SHUzheking/]}
+  \info{\faWeixin~{2035451658}}
+  % \phone{}
+\end{basicinfo}
+
+
+\section{Education}
+\cventry{Shanghai University}
+  {Sep 2021 -- Jun 2025(Expected)}
+  [B.Eng in Artificial Intelligence]
+  [Shanghai, China]
+  \begin{itemize}
+    \item GPA 84.5/100
+    \item Supervised by Shaorong Xie, dean of \href{https://cs.shu.edu.cn/}{Computer Enginnering and Science}.
+    % \item 长中文段落测试：「于是我们奋力前进，却如同逆水行舟，注定要不停地退回过去。」——《了不起的盖茨比》菲茨杰拉德
+  \end{itemize}
+
+\section{Projects}
+
+\cventry{Point-based Scene Warping for High-quality Neural Radiance Fields}
+  {Jun 2023 -- Now}
+  [Group Member at DISCOVER-lab, Institute for AI Industry Research of Tsinghua University]
+  [Beijing, China]
+  \begin{itemize}
+    \item \textbf{Overview}: Using Point-based method and design a warping function to minimize the holes in Neural Radiance Fields' rendering, and improve the overall quality of the whole 3D-reconstrction.
+    \item \textbf{Content}: Developed project \textit{pointnerf2studio}, which is an unofficial migration for the original implementation of Point-NeRF to Nerfstudio(A framework for NeRF methods), \textbf{\href{https://github.com/SHUzhekiNg/pointnerf2studio}{Code Link}}
+  \end{itemize}
+
+\cventry{Automatic descriptor acquisition method for NASICON electrolyte}
+  {May 2022 -- Mar 2023}
+  [Group Member, supervised by Prof Y. Liu in Shanghai University]
+  [Shanghai, China]
+  \begin{itemize}
+    \item \textbf{Overview}: Using the text mining method, descriptors can be extracted from small batch of NASICON solid electrolyte documents and trained based on this model to achieve automatic and efficient acquisition of NASICON solid electrolyte descriptors.
+    \item \textbf{Content}: Using \textbf{Vue} to develop front-end interfaces and the back-end deployment using \textbf{Springboot} to communicate with \textbf{MySQL} and \textbf{Neo4j} databases. BERT algorithm are deployed using \textbf{Pytorch} for paper processing, and the extracted descriptors are used to construct the knowledge map using \textbf{Neo4j} database.
+  \end{itemize}
+
+\cventry{Computer Vision Recognition System for RoboMaster Robots}
+  {Oct 2021 -- Dec 2022}
+  [Leader of Computer Vision Group, SHU RoboMaster Team SRM]
+  [Shanghai, China]
+  \begin{itemize}
+    \item \textbf{Overview}: Through the video stream of industrial camera deployed on the robot, this project can identify enemy robots' armor plates, and publish the target coordinate information to lock the platform at the recognition center. Its performance is similar to a self-aiming plugin in First-person shooting games.
+    \item \textbf{Content}: The Yolo network is deployed on \textbf{Ubuntu} using \textbf{CUDA}. Kalman filter and trajectory model are used to improve the impact point of the projectile and achieve accurate strike.
+  \end{itemize}
+
+\section{Awards and Honors}
+\cventry{Scholarship for Innovation of Shanghai University}{Feb 2023}
+\cventry{The 21st National Undergraduate Robot Competition (RoboMaster 2022)} {3rd Prize, Aug 2022}
+\cventry{The 35th Shanghai Youth Science and Technology Innovation Competition} {1st Prize, Apr 2020}
+\cventry{The 1st International Artificial Intelligence Fair\href{https://www.iaif.tech/iaifHome/home}{(IAIF, SenseTime hosted)}} {1st Prize, Mar 2019}
+\cventry{Shanghai Youth Robot Knowledge and Practice Competition} {1st Prize, Nov 2018 and Nov 2019}
+\cventry{Shanghai Youth AI Competition.} {1st Prize, Nov 2018}
+
+\section{Skill Set}
+\begin{compactlist}
+  \item \textbf{Programming Languages}: 
+  \begin{itemize}
+    \item Familiar with \textbf{C++, Python, MATLAB, HTML, CSS, \LaTeX.}
+    \item Basic experience in \textbf{JavaScript, Vue, Java, SQL, bash.}
+  \end{itemize}
+  \item \textbf{Tech Skills}: C-Compiling methods, machine learning, deep learning, CUDA programming.
+  \item \textbf{Tools}: Hands-on experience in \textbf{Ubuntu} and \textbf{git} on daily basis.
+  \item \textbf{English}: 593 for the College English Test Band 4(CET4)
+  \item \textbf{Interests}: Photography, Programming, Classical Music.
+\end{compactlist}
+
+\end{document}
