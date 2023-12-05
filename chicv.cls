@@ -18,8 +18,8 @@
 % For font setting
 \RequirePackage[T1]{fontenc}
 \RequirePackage{fontspec}
-\setsansfont{DejaVu Serif}
-\RequirePackage{ctex}
+%\setsansfont{DejaVu Serif}
+%\RequirePackage{ctex}
 \RequirePackage{titlesec}
 \RequirePackage{XCharter}
 % For color
