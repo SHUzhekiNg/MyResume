@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{chicv}[2022/08/21 A CV template based on the Curriculum Vitae of Alex Chi Zhang]
-\LoadClass[10pt]{article} % based on article class
+\LoadClass[11pt]{article} % based on article class
 
 %
 \RequirePackage[
@@ -37,7 +37,7 @@
 \RequirePackage{enumitem}
 
 %% ----------------- END OF PACKAGES ----------------- %%
-
+\linespread{1.15}\selectfont
 % Footer
 %%% Only add "updated" footer to last page
 \pagestyle{fancy}
@@ -65,7 +65,7 @@
 \renewcommand\Huge{\@setfontsize\Huge{22pt}{18}}
 \renewcommand\huge{\@setfontsize\huge{20pt}{18}}
 \renewcommand\LARGE{\@setfontsize\LARGE{18pt}{18}}
-\renewcommand\Large{\@setfontsize\Large{12pt}{18}}
+\renewcommand\Large{\@setfontsize\Large{14pt}{18}}
 \renewcommand\large{\@setfontsize\large{11pt}{18}}
 
 % heading font: Avenir Next
