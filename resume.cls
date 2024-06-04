@@ -19,7 +19,7 @@
 
 \setsansfont{DejaVu Serif}
 \usepackage {ctex} 
-\setCJKmainfont[AutoFakeBold=true]{SimSun}
+% \setCJKmainfont[AutoFakeBold=true]{SimSun}
 
 
 \newcommand\threeparts[4][t]{
