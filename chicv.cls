@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{chicv}[2022/08/21 A CV template based on the Curriculum Vitae of Alex Chi Zhang]
-\LoadClass[12pt]{article} % based on article class
+\LoadClass[11pt]{article} % based on article class
 
 %
 \RequirePackage[
@@ -37,7 +37,7 @@
 \RequirePackage{enumitem}
 
 %% ----------------- END OF PACKAGES ----------------- %%
-\linespread{1.15}\selectfont
+\linespread{1.2}\selectfont
 % Footer
 %%% Only add "updated" footer to last page
 \pagestyle{fancy}
