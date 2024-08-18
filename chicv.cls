@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{chicv}[2022/08/21 A CV template based on the Curriculum Vitae of Alex Chi Zhang]
-\LoadClass[11pt]{article} % based on article class
+\LoadClass[12pt]{article} % based on article class
 
 %
 \RequirePackage[
