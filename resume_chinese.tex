@@ -14,24 +14,34 @@
 \end{rSection}
  
 \begin{rSection}{\faBriefcase~实习经历}
+    \begin{rExperience}{数据开发实习生}{辉羲智能(上海)有限公司}{2024.07 - 2024.10}
+        \begin{itemize}
+            \itemsep -0.5em \vspace{-0.5em}
+            \item 为数据闭环平台设计与开发\textbf{Python}工作流模块，并与数据库对接读取与存储数据。
+            \item 微调多模态大模型提示词，实现更好的数据标注与挖掘。
+            \item 开发了 \textbf{Python-Database} 接口，以管理存储在 \textbf{PostgreSQL} 和 \textbf{AWS} 中的大量数据。
+            \item 使用 \textbf{C++ 和 Pybind11} 加速文件 I/O 50\%（JPG、PKL 和 PCD）。
+        \end{itemize}
+    \end{rExperience}
+
     \begin{rExperience}{算法研究实习生}{启数光轮科技(上海)有限公司}{2023.12 - 2024.05}
         \begin{itemize}
             \itemsep -0.5em \vspace{-0.5em}
             \item 在自动驾驶场景下优化\textbf{3DGS}算法与参数，使之得到更好的渲染效果。
+            \begin{itemize}
+                \item 参照UC-NeRF的全局曝光优化，移植到3DGS中优化多视角相机曝光带来的渲染裂纹。
+                \item 将迭代次数减半后，保证指标地进行优化调参，减少训练时间，提高效率近40\%。
+            \end{itemize}
             \item 参与\textbf{Python}开发自动化评测，全流程自动进行每周算法指标评测。
             \item 开发\textbf{Dockerfile}封装全流程环境，实现多服务器统一开发环境。
             \item 用\textbf{Vue+Flask}开发前后端，\textbf{Postgresql}存储评测指标并进行实时读取和数据统计。
-            \begin{itemize}
-                \item 前端UI设计使用\textbf{ElementUI}，同时用\textbf{Apache Echarts}实现折线图在线可视化指标走势。
-                \item 在\textbf{Postgresql}设计了分别按照时间和场景提取指标的\textbf{SQL}，且可以同步根据条件计算均值。
-            \end{itemize}
         \end{itemize}
     \end{rExperience}
 
     \begin{rExperience}{科研实习}{清华大学智能产业研究院}{2023.05 - 2024.01}
         \begin{itemize}
             \itemsep -0.5em \vspace{-0.5em}
-            \item \textbf{指导老师}：赵昊教授、石永亮博士后、武子睿博士。
+            \item \textbf{指导老师}：赵昊教授、石永亮博士后。
             \item \textbf{项目题目}：Point-based Scene Warping for High-quality Neural Radiance Fields
             \item \textbf{项目概述}：基于点云的方法，设计了一个映射函数来最小化神经辐射场的渲染空洞的问题，提高了整个三维重构的整体质量
             \item \textbf{项目开发}：移植\textbf{Point-NeRF}代码到\textbf{Nerfstudio}框架中，并开展大量实验。
